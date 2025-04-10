@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "name": "Hawar Amin",
+    "status": "active",
+    "skills": ["personal_care", "medication", "mobility"],
+    "workingHours": {
+      "start": "06:30",
+      "end": "15:00"
+    },
+    "transportMode": "car",
+    "hasKeys": [101, 103, 105],
+    "maxAppointments": 8,
+    "unavailableTimes": []
+  },
+  {
+    "id": 2,
+    "name": "Lana Bahaaldin",
+    "status": "active",
+    "skills": ["personal_care", "housekeeping", "meal_preparation"],
+    "workingHours": {
+      "start": "07:00",
+      "end": "16:00"
+    },
+    "transportMode": "car",
+    "hasKeys": [102, 104],
+    "maxAppointments": 8,
+    "unavailableTimes": []
+  },
+  {
+    "id": 3,
+    "name": "Nikrooz Rafiee",
+    "status": "active",
+    "skills": ["personal_care", "medication", "nursing"],
+    "workingHours": {
+      "start": "07:00",
+      "end": "16:00"
+    },
+    "transportMode": "car",
+    "hasKeys": [106, 108],
+    "maxAppointments": 7,
+    "unavailableTimes": []
+  },
+  {
+    "id": 4,
+    "name": "Kamaran Kudedat",
+    "status": "active",
+    "skills": ["personal_care", "mobility", "companionship"],
+    "workingHours": {
+      "start": "08:00",
+      "end": "17:00"
+    },
+    "transportMode": "car",
+    "hasKeys": [107],
+    "maxAppointments": 8,
+    "unavailableTimes": []
+  },
+  {
+    "id": 5,
+    "name": "Ruth Moa Elisabeth",
+    "status": "active",
+    "skills": ["nursing", "medication", "wound_care", "injections"],
+    "workingHours": {
+      "start": "07:30",
+      "end": "16:30"
+    },
+    "transportMode": "car",
+    "hasKeys": [109, 110],
+    "maxAppointments": 6,
+    "unavailableTimes": []
+  },
+  {
+    "id": 6,
+    "name": "Lava Gito",
+    "status": "active",
+    "skills": ["personal_care", "housekeeping", "meal_preparation"],
+    "workingHours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "transportMode": "public",
+    "hasKeys": [111],
+    "maxAppointments": 7,
+    "unavailableTimes": []
+  },
+  {
+    "id": 7,
+    "name": "Delia Jivanovic",
+    "status": "active",
+    "skills": ["personal_care", "mobility", "companionship"],
+    "workingHours": {
+      "start": "08:30",
+      "end": "17:30"
+    },
+    "transportMode": "car",
+    "hasKeys": [112, 113],
+    "maxAppointments": 8,
+    "unavailableTimes": []
+  },
+  {
+    "id": 8,
+    "name": "Laiah Shamoon",
+    "status": "active",
+    "skills": ["personal_care", "medication", "health_assessment"],
+    "workingHours": {
+      "start": "07:00",
+      "end": "16:00"
+    },
+    "transportMode": "car",
+    "hasKeys": [114],
+    "maxAppointments": 7,
+    "unavailableTimes": []
+  },
+  {
+    "id": 9,
+    "name": "Latifa Mehdaoui",
+    "status": "active",
+    "skills": ["personal_care", "housekeeping", "meal_preparation"],
+    "workingHours": {
+      "start": "08:00",
+      "end": "17:00"
+    },
+    "transportMode": "public",
+    "hasKeys": [115, 116],
+    "maxAppointments": 7,
+    "unavailableTimes": []
+  },
+  {
+    "id": 10,
+    "name": "Jwan Salih",
+    "status": "active",
+    "skills": ["personal_care", "mobility", "companionship"],
+    "workingHours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "transportMode": "car",
+    "hasKeys": [117],
+    "maxAppointments": 8,
+    "unavailableTimes": []
+  },
+  {
+    "id": 11,
+    "name": "Alma Halilovic",
+    "status": "active",
+    "skills": ["personal_care", "medication", "health_assessment"],
+    "workingHours": {
+      "start": "07:30",
+      "end": "16:30"
+    },
+    "transportMode": "car",
+    "hasKeys": [118, 119],
+    "maxAppointments": 7,
+    "unavailableTimes": []
+  },
+  {
+    "id": 12,
+    "name": "Krsto Krstevski",
+    "status": "active",
+    "skills": ["personal_care", "housekeeping", "meal_preparation"],
+    "workingHours": {
+      "start": "08:30",
+      "end": "17:30"
+    },
+    "transportMode": "public",
+    "hasKeys": [120],
+    "maxAppointments": 7,
+    "unavailableTimes": []
+  },
+  {
+    "id": 13,
+    "name": "Valentina Nikolovska",
+    "status": "active",
+    "skills": ["nursing", "medication", "wound_care", "injections"],
+    "workingHours": {
+      "start": "07:00",
+      "end": "16:00"
+    },
+    "transportMode": "car",
+    "hasKeys": [121, 122],
+    "maxAppointments": 6,
+    "unavailableTimes": []
+  },
+  {
+    "id": 14,
+    "name": "Karwan Sorani",
+    "status": "active",
+    "skills": ["personal_care", "mobility", "companionship"],
+    "workingHours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "transportMode": "car",
+    "hasKeys": [123],
+    "maxAppointments": 8,
+    "unavailableTimes": []
+  }
+]

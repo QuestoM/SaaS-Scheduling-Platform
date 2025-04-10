@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareConnect - Home Care Scheduling Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>CareConnect</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Sök (Ctrl+Shift+F)">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="organization-info">
+            <span>Planeringsvecka 1 | Access Hemomsorg AB</span>
+        </div>
+        <div class="user-controls">
+            <button class="icon-button"><i class="fas fa-shopping-cart"></i></button>
+            <button class="icon-button"><i class="fas fa-mobile-alt"></i></button>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle red">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <span>Hem</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle blue">
+                        <i class="fas fa-user-nurse"></i>
+                    </div>
+                    <span>Vårdtagare</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle green">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <span>Medarbetare</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle yellow">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <span>Schema</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle purple">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <span>Ärenden</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle orange">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <span>Statistik</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item active">
+                    <div class="icon-circle light-blue">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <span>Planering</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle teal">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <span>Tidrapportering</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle gray">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <span>Inställningar</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle dark-gray">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <span>Support</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="sub-nav">
+        <div class="filter-controls">
+            <div class="dropdown">
+                <button class="dropdown-btn">Planering <i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">Lås <i class="fas fa-chevron-down"></i></button>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">Övrigt <i class="fas fa-chevron-down"></i></button>
+            </div>
+            <button class="icon-text-btn"><i class="fas fa-sort"></i> Sortera</button>
+            <button class="icon-text-btn"><i class="fas fa-search"></i> Sök</button>
+            <button class="icon-text-btn"><i class="fas fa-users"></i> 4 valda enheter</button>
+        </div>
+        <div class="notification-area">
+            <span class="notification-badge"><i class="fas fa-bell"></i> 0 osignerade ärenden.</span>
+        </div>
+    </div>
+
+    <div class="action-bar">
+        <div class="left-actions">
+            <button class="action-btn"><i class="fas fa-arrow-left"></i></button>
+            <button class="action-btn"><i class="fas fa-save"></i> Spara</button>
+            <button class="action-btn"><i class="fas fa-redo"></i></button>
+        </div>
+        <div class="right-actions">
+            <button class="action-btn"><i class="fas fa-user"></i> Omsorgskontak</button>
+            <button class="action-btn"><i class="fas fa-eye"></i> Visa insatser</button>
+            <button class="action-btn"><i class="fas fa-user-friends"></i> Företrägare/ej</button>
+            <div class="time-selector">
+                <label>Insatstärger</label>
+                <label>Från</label>
+                <input type="time" value="06:30">
+                <label>Till</label>
+                <input type="time" value="23:00">
+            </div>
+        </div>
+    </div>
+
+    <div class="date-display">
+        <h2>Tisdag 8 april 2025 (Planeringsvecka 1)</h2>
+    </div>
+
+    <div class="schedule-container">
+        <div class="time-header">
+            <div class="staff-header">Staff</div>
+            <div class="time-slots">
+                <div class="time-slot">06:30</div>
+                <div class="time-slot">07:00</div>
+                <div class="time-slot">07:30</div>
+                <div class="time-slot">08:00</div>
+                <div class="time-slot">08:30</div>
+                <div class="time-slot">09:00</div>
+                <div class="time-slot">09:30</div>
+                <div class="time-slot">10:00</div>
+                <div class="time-slot">10:30</div>
+                <div class="time-slot">11:00</div>
+                <div class="time-slot">11:30</div>
+                <div class="time-slot">12:00</div>
+                <div class="time-slot">12:30</div>
+                <div class="time-slot">13:00</div>
+                <div class="time-slot">13:30</div>
+                <div class="time-slot">14:00</div>
+                <div class="time-slot">14:30</div>
+                <div class="time-slot">15:00</div>
+                <div class="time-slot">15:30</div>
+                <div class="time-slot">16:00</div>
+                <div class="time-slot">16:30</div>
+                <div class="time-slot">17:00</div>
+                <div class="time-slot">17:30</div>
+                <div class="time-slot">18:00</div>
+                <div class="time-slot">18:30</div>
+                <div class="time-slot">19:00</div>
+                <div class="time-slot">19:30</div>
+                <div class="time-slot">20:00</div>
+            </div>
+        </div>
+
+        <div class="schedule-grid">
+            <div class="category-row">
+                <div class="category-label">Oplanerat</div>
+                <div class="category-slots">
+                    <div class="unplanned-slot" style="background-color: #ffcccc;"></div>
+                </div>
+            </div>
+
+            <div class="category-row">
+                <div class="category-label">Frånvarande/Avbokade</div>
+                <div class="category-slots">
+                    <div class="key-handover" style="left: 5%; width: 3%;">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="key-handover" style="left: 25%; width: 3%;">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <div class="key-handover" style="left: 45%; width: 3%;">
+                        <i class="fas fa-key"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="staff-row">
+                <div class="staff-info">
+                    <div class="staff-icons">
+                        <i class="fas fa-car" style="color: red;"></i>
+                        <i class="fas fa-circle" style="color: green;"></i>
+                        <i class="fas fa-exclamation-circle" style="color: orange;"></i>
+                    </div>
+                    <div class="staff-name">Hawar Amin</div>
+                </div>
+                <div class="staff-slots">
+                    <div class="appointment" style="left: 5%; width: 5%; background-color: #ffffcc;">
+                        <span>Ingrid</span>
+                    </div>
+                    <div class="appointment" style="left: 12%; width: 3%; background-color: #333333; color: white;">
+                        <span>Ingo</span>
+                    </div>
+                    <div class="appointment" style="left: 16%; width: 5%; background-color: #3399ff; color: white;">
+                        <span>Åke</span>
+                    </div>
+                    <div class="appointment" style="left: 22%; width: 3%; background-color: #006600; color: white;">
+                        <span>Bo</span>
+                    </div>
+                    <div class="appointment" style="left: 26%; width: 3%; background-color: #ff9900;">
+                        <span>Bo</span>
+                    </div>
+                    <div class="appointment" style="left: 30%; width: 4%; background-color: #3399ff; color: white;">
+                        <span>Maj</span>
+                    </div>
+                    <div class="appointment" style="left: 35%; width: 5%; background-color: #ffffcc;">
+                        <span>Ingrid</span>
+                    </div>
+                    <div class="travel-indicator" style="left: 40%; width: 2%;">
+                        <div class="travel-line"></div>
+                    </div>
+                    <div class="appointment" style="left: 43%; width: 5%; background-color: #cc0000; color: white;">
+                        <span>Sten</span>
+                    </div>
+                    <div class="appointment" style="left: 49%; width: 3%; background-color: #ffffcc;">
+                        <span>Lenn</span>
+                    </div>
+                    <div class="appointment" style="left: 53%; width: 7%; background-color: #00cc00; color: white;">
+                        <span>Henrietta</span>
+                    </div>
+                    <div class="appointment" style="left: 61%; width: 3%; background-color: #9966ff; color: white;">
+                        <span>Sten</span>
+                    </div>
+                    <div class="appointment" style="left: 65%; width: 3%; background-color: #9966ff; color: white;">
+                        <span>Sten</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="staff-row">
+                <div class="staff-info">
+                    <div class="staff-icons">
+                        <i class="fas fa-circle" style="color: green;"></i>
+                        <i class="fas fa-exclamation-circle" style="color: orange;"></i>
+                    </div>
+                    <div class="staff-name">Lana Bahaaldin Ab...</div>
+                </div>
+                <div class="staff-slots">
+                    <div class="appointment" style="left: 5%; width: 7%; background-color: #ccccff;">
+                        <span>Hammarby</span>
+                    </div>
+                    <div class="appointment" style="left: 13%; width: 5%; background-color: #3399ff; color: white;">
+                        <span>Lennart</span>
+                    </div>
+                    <div class="appointment" style="left: 19%; width: 7%; background-color: #3399ff; color: white;">
+                        <span>Elisabeth</span>
+                    </div>
+                    <div class="appointment" style="left: 27%; width: 4%; background-color: #ffcc99;">
+                        <span>Bor</span>
+                    </div>
+                    <div class="appointment" style="left: 32%; width: 5%; background-color: #ffcc99;">
+                        <span>Norrtalje</span>
+                    </div>
+                    <div class="travel-indicator" style="left: 37%; width: 2%;">
+                        <div class="travel-line"></div>
+                    </div>
+                    <div class="appointment" style="left: 40%; width: 3%; background-color: #ccffff;">
+                        <span>Bic</span>
+                    </div>
+                    <div class="appointment" style="left: 44%; width: 3%; background-color: #ff9900;">
+                        <span>Bor</span>
+                    </div>
+                    <div class="appointment" style="left: 48%; width: 3%; background-color: #ff9900;">
+                        <span>Bor</span>
+                    </div>
+                    <div class="appointment" style="left: 52%; width: 7%; background-color: #cc0000; color: white;">
+                        <span>Elisabeth</span>
+                    </div>
+                    <div class="appointment" style="left: 60%; width: 5%; background-color: #ffffcc;">
+                        <span>Elisabeth</span>
+                    </div>
+                    <div class="appointment" style="left: 66%; width: 3%; background-color: #ffcc99;">
+                        <span>Bor</span>
+                    </div>
+                    <div class="appointment" style="left: 70%; width: 3%; background-color: #9966ff; color: white;">
+                        <span>Bo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="staff-row">
+                <div class="staff-info">
+                    <div class="staff-icons">
+                        <i class="fas fa-car" style="color: red;"></i>
+                        <i class="fas fa-circle" style="color: gray;"></i>
+                    </div>
+                    <div class="staff-name">Nikrooz Rafiee</div>
+                </div>
+                <div class="staff-slots">
+                    <div class="appointment" style="left: 5%; width: 3%; background-color: #ffcc99;">
+                        <span>Bo</span>
+                    </div>
+                    <div class="appointment" style="left: 9%; width: 5%; background-color: #ffffcc;">
+                        <span>Ingvar</span>
+                    </div>
+                    <div class="appointment" style="left: 15%; width: 5%; background-color: #ffffcc;">
+                        <span>Ingrid</span>
+                    </div>
+                    <div class="appointment" style="left: 21%; width: 3%; background-color: #333333; color: white;">
+                        <span>Bo</span>
+                    </div>
+                    <div class="appointment" style="left: 25%; width: 5%; background-color: #cc0000; color: white;">
+                        <span>Cecilia</span>
+                    </div>
+                    <div class="appointment" style="left: 31%; width: 3%; background-color: #ccccff;">
+                        <span>Bo</span>
+                    </div>
+                    <div class="appointment" style="left: 35%; width: 5%; background-color: #ffcc99;">
+                        <span>Norrtalje</span>
+                    </div>
+                    <div class="travel-indicator" style="left: 40%; width: 2%;">
+                        <div class="travel-line"></div>
+                    </div>
+  
+(Content truncated due to size limit. Use line ranges to read in chunks)

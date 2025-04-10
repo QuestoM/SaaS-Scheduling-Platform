@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Care Scheduling Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Navigation -->
+        <header class="app-header">
+            <div class="logo-container">
+                <img src="logo-placeholder.png" alt="Home Care Scheduling Platform" class="logo">
+                <h1 class="app-title">Home Care Scheduling Platform</h1>
+            </div>
+            <div class="user-controls">
+                <div class="user-profile">
+                    <span class="user-name">Jane Coordinator</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <button class="btn btn-logout">Logout</button>
+            </div>
+        </header>
+
+        <!-- Main Navigation -->
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item active"><a href="#dashboard">Dashboard</a></li>
+                <li class="nav-item"><a href="#schedules">Schedules</a></li>
+                <li class="nav-item"><a href="#clients">Clients</a></li>
+                <li class="nav-item"><a href="#staff">Staff</a></li>
+                <li class="nav-item"><a href="#settings">Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="dashboard-container">
+                <h2 class="section-title">Dashboard</h2>
+                
+                <div class="dashboard-grid">
+                    <!-- Overview Card -->
+                    <div class="card overview-card">
+                        <h3 class="card-title">Today's Overview</h3>
+                        <div class="overview-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Active Staff</span>
+                                <span class="stat-value">12</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Appointments</span>
+                                <span class="stat-value">45</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Completed</span>
+                                <span class="stat-value">28</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Pending</span>
+                                <span class="stat-value">17</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Issues</span>
+                                <span class="stat-value alert">2</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Schedule Status Card -->
+                    <div class="card status-card">
+                        <h3 class="card-title">Schedule Status</h3>
+                        <div class="status-chart">
+                            <!-- Placeholder for chart -->
+                            <div class="chart-placeholder">
+                                <div class="pie-chart">
+                                    <div class="pie-segment" style="--percentage: 65%; --color: #57B894;">65%</div>
+                                    <div class="pie-segment" style="--percentage: 30%; --color: #F6D55C;">30%</div>
+                                    <div class="pie-segment" style="--percentage: 5%; --color: #ED553B;">5%</div>
+                                </div>
+                            </div>
+                            <div class="chart-legend">
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #57B894;"></span>
+                                    <span class="legend-label">Scheduled: 65%</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #F6D55C;"></span>
+                                    <span class="legend-label">Completed: 30%</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #ED553B;"></span>
+                                    <span class="legend-label">Missed: 5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Actions Card -->
+                    <div class="card actions-card">
+                        <h3 class="card-title">Quick Actions</h3>
+                        <div class="action-buttons">
+                            <button class="btn btn-primary">Create Schedule</button>
+                            <button class="btn btn-primary">Optimize Routes</button>
+                            <button class="btn btn-primary">Manage Keys</button>
+                        </div>
+                    </div>
+
+                    <!-- Notifications Card -->
+                    <div class="card notifications-card">
+                        <h3 class="card-title">Alerts & Notifications</h3>
+                        <ul class="notification-list">
+                            <li class="notification warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span class="notification-text">Key #103 needs to be transferred from John D. to Sarah M.</span>
+                            </li>
+                            <li class="notification warning">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span class="notification-text">Client #45 has requested a schedule change for tomorrow</span>
+                            </li>
+                            <li class="notification info">
+                                <i class="fas fa-info-circle"></i>
+                                <span class="notification-text">Staff member Lisa T. is on leave next week</span>
+                            </li>
+                        </ul>
+                        <div class="card-footer">
+                            <a href="#notifications" class="view-all">View All Notifications</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Mobile Navigation (hidden on desktop) -->
+        <nav class="mobile-nav">
+            <ul class="mobile-nav-list">
+                <li class="mobile-nav-item active"><a href="#dashboard"><i class="fas fa-home"></i><span>Dashboard</span></a></li>
+                <li class="mobile-nav-item"><a href="#schedules"><i class="fas fa-calendar-alt"></i><span>Schedules</span></a></li>
+                <li class="mobile-nav-item"><a href="#clients"><i class="fas fa-users"></i><span>Clients</span></a></li>
+                <li class="mobile-nav-item"><a href="#staff"><i class="fas fa-user-nurse"></i><span>Staff</span></a></li>
+                <li class="mobile-nav-item"><a href="#more"><i class="fas fa-ellipsis-h"></i><span>More</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

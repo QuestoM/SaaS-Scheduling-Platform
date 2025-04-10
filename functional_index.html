@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareConnect - Home Care Scheduling Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>carefox</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Sök (Ctrl+Shift+F)">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="organization-info">
+            Planeringsvecka 1 | Access Hemomsorgs AB
+        </div>
+        <div class="user-controls">
+            <button class="icon-button"><i class="fas fa-shopping-cart"></i></button>
+            <button class="icon-button"><i class="fas fa-mobile-alt"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle red">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    Hem
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle blue">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    Vårdtagare
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle green">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    Medarbetare
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item active">
+                    <div class="icon-circle yellow">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    Schema
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle purple">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    Ärenden
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle orange">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    Statistik
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle light-blue">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    Planering
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle teal">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    Tidrapportering
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle gray">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    Inställningar
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <div class="icon-circle dark-gray">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    Support
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Sub Navigation -->
+    <div class="sub-nav">
+        <div class="filter-controls">
+            <div class="dropdown">
+                <button class="dropdown-btn">
+                    Planering <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">
+                    Läs <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="dropdown-btn">
+                    Övrigt <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+            <button class="icon-text-btn">
+                <i class="fas fa-sort"></i> Sortera
+            </button>
+            <button class="icon-text-btn">
+                <i class="fas fa-search"></i> Sök
+            </button>
+            <button class="icon-text-btn">
+                <i class="fas fa-users"></i> 4 valda enheter
+            </button>
+        </div>
+        <div class="notification-area">
+            <div class="notification-badge">
+                <i class="fas fa-bell"></i> 0 osignerade ärenden.
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Bar -->
+    <div class="action-bar">
+        <div class="left-actions">
+            <button class="action-btn">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="action-btn">
+                <i class="fas fa-save"></i> Spara
+            </button>
+            <button class="action-btn">
+                <i class="fas fa-undo"></i>
+            </button>
+        </div>
+        <div class="right-actions">
+            <div class="dropdown">
+                <button class="action-btn">
+                    <i class="fas fa-user"></i> Omsorgskontakt
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="action-btn">
+                    <i class="fas fa-eye"></i> Visa insatser
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="action-btn">
+                    <i class="fas fa-user-tie"></i> Föredragen/ej
+                </button>
+            </div>
+            <div class="dropdown">
+                <button class="action-btn">
+                    <i class="fas fa-clock"></i> Insatstider
+                </button>
+            </div>
+            <div class="time-selector">
+                Från <input type="time" value="06:30"> Till <input type="time" value="23:00">
+            </div>
+        </div>
+    </div>
+
+    <!-- Date Display -->
+    <div class="date-display">
+        <h2>Tisdag 8 april 2025 (Planeringsvecka 1)</h2>
+    </div>
+
+    <!-- Schedule Container -->
+    <div class="schedule-container">
+        <!-- Time Header -->
+        <div class="time-header">
+            <div class="staff-header">Medarbetare</div>
+            <div class="time-slots">
+                <div class="time-slot">06:30</div>
+                <div class="time-slot">07:00</div>
+                <div class="time-slot">07:30</div>
+                <div class="time-slot">08:00</div>
+                <div class="time-slot">08:30</div>
+                <div class="time-slot">09:00</div>
+                <div class="time-slot">09:30</div>
+                <div class="time-slot">10:00</div>
+                <div class="time-slot">10:30</div>
+                <div class="time-slot">11:00</div>
+                <div class="time-slot">11:30</div>
+                <div class="time-slot">12:00</div>
+                <div class="time-slot">12:30</div>
+                <div class="time-slot">13:00</div>
+                <div class="time-slot">13:30</div>
+                <div class="time-slot">14:00</div>
+                <div class="time-slot">14:30</div>
+                <div class="time-slot">15:00</div>
+                <div class="time-slot">15:30</div>
+                <div class="time-slot">16:00</div>
+                <div class="time-slot">16:30</div>
+                <div class="time-slot">17:00</div>
+                <div class="time-slot">17:30</div>
+                <div class="time-slot">18:00</div>
+                <div class="time-slot">18:30</div>
+                <div class="time-slot">19:00</div>
+                <div class="time-slot">19:30</div>
+                <div class="time-slot">20:00</div>
+            </div>
+        </div>
+
+        <!-- Schedule Grid -->
+        <div class="schedule-grid">
+            <!-- Category Row - Unplanned -->
+            <div class="category-row">
+                <div class="category-label">Oplanerat</div>
+                <div class="category-slots">
+                    <div class="unplanned-slot"></div>
+                </div>
+            </div>
+
+            <!-- Category Row - Key Handovers -->
+            <div class="category-row">
+                <div class="category-label">Nyckelöverlämning</div>
+                <div class="category-slots">
+                    <!-- Key handovers will be added dynamically -->
+                </div>
+            </div>
+
+            <!-- Staff Rows will be added dynamically -->
+        </div>
+    </div>
+
+    <!-- Appointment Details Panel -->
+    <div class="appointment-details" id="appointmentDetails">
+        <div class="details-header">
+            <h3>Personal Care</h3>
+            <div class="client-type">Hemtjänst</div>
+            <button class="close-btn">&times;</button>
+        </div>
+        <div class="details-content">
+            <div class="time-info">
+                <p>11:05 - 11:51 (45 min)</p>
+                <p>8 min restid</p>
+            </div>
+            <div class="appointment-time">
+                <h4>Ärendetider:</h4>
+                <p>12:30 - 13:15 (45 min)</p>
+            </div>
+            <div class="flexibility">
+                <h4>Flexat: 84 min</h4>
+                <p>Flexibilitet: 15 min</p>
+            </div>
+            <div class="task-description">
+                <h4>Utförande:</h4>
+                <p>Hjälp till med att öppna burkar, flaskor mm, uppsnyggning av lägenheten vid behov, ta ut sopor.</p>
+                <p><strong>Senast flyttad av:</strong> Hawar Amin</p>
+            </div>
+            <div class="notes">
+                <p>Insatsen har flexats 69 minuter för mycket.</p>
+            </div>
+        </div>
+        <div class="client-info">
+            <h4>Catharina Lagerblad</h4>
+            <p>Smaragdgatan 16</p>
+            <p>Västra Frölunda</p>
+            <p><strong>I enheter:</strong></p>
+            <p>Mölndal</p>
+            <p>Göteborg</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/scheduling-algorithm.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

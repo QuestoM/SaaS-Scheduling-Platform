@@ -1,0 +1,16 @@
+You will develop an advanced SaaS scheduling platform tailored explicitly for home care service management. The platform should feature an intuitive and detailed visual interface, similar to the provided example, but with enhanced intelligence and user experience.
+
+Core functionalities include:
+
+- Efficient matching of home care clients with appropriate personnel, optimizing daily schedules.
+- Minimization of travel times between client locations, maximizing operational efficiency.
+- Comprehensive key management integration to track and control access securely.
+- Adaptability to incorporate individual client preferences regarding visitation times.
+- Clear visualization of daily and weekly schedules with distinct markers for different tasks, statuses, and time allocations.
+- User-friendly drag-and-drop scheduling capabilities for coordinators and schedulers.
+- Real-time notifications and alerts to quickly identify and resolve scheduling conflicts or inefficiencies.
+- Robust filtering and sorting options for streamlined schedule management.
+- Insightful analytics and reporting tools integrated to continuously optimize service delivery.
+
+This SaaS system should empower coordinators by providing smart suggestions and automations, significantly improving scheduling efficiency and reducing administrative workload.
+

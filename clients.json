@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "name": "Catharina Lagerblad",
+    "type": "Hemtjänst",
+    "address": "Smaragdgatan 16",
+    "location": "Västra Frölunda",
+    "keyNumber": 101,
+    "keyNotes": "Key in lockbox, code 1234",
+    "units": ["Mölndal", "Göteborg"],
+    "preferredStaff": [1, 5, 8],
+    "preferredTimeWindows": [
+      { "start": "09:00", "end": "11:30" },
+      { "start": "14:00", "end": "16:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "medication": true,
+      "mobility": true
+    },
+    "notes": "Prefers female staff. Has a cat."
+  },
+  {
+    "id": 2,
+    "name": "Erik Johansson",
+    "type": "Hemtjänst",
+    "address": "Kungsgatan 45",
+    "location": "Göteborg",
+    "keyNumber": 102,
+    "keyNotes": "Key at office",
+    "units": ["Göteborg"],
+    "preferredStaff": [2, 4, 7],
+    "preferredTimeWindows": [
+      { "start": "08:00", "end": "10:00" },
+      { "start": "16:00", "end": "18:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "meal_preparation": true,
+      "housekeeping": true
+    },
+    "notes": "Hearing impaired, speak clearly and face client"
+  },
+  {
+    "id": 3,
+    "name": "Maria Andersson",
+    "type": "Hemtjänst",
+    "address": "Linnégatan 23",
+    "location": "Göteborg",
+    "keyNumber": 103,
+    "keyNotes": "Key with staff",
+    "units": ["Göteborg"],
+    "preferredStaff": [1, 3, 13],
+    "preferredTimeWindows": [
+      { "start": "07:00", "end": "09:00" },
+      { "start": "17:00", "end": "19:00" }
+    ],
+    "serviceRequirements": {
+      "medication": true,
+      "nursing": true,
+      "wound_care": true
+    },
+    "notes": "Diabetic, check blood sugar levels"
+  },
+  {
+    "id": 4,
+    "name": "Lars Nilsson",
+    "type": "Hemtjänst",
+    "address": "Vasagatan 12",
+    "location": "Göteborg",
+    "keyNumber": 104,
+    "keyNotes": "Key with relative",
+    "units": ["Göteborg"],
+    "preferredStaff": [2, 6, 9],
+    "preferredTimeWindows": [
+      { "start": "10:00", "end": "12:00" },
+      { "start": "15:00", "end": "17:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "housekeeping": true,
+      "companionship": true
+    },
+    "notes": "Likes to talk about history"
+  },
+  {
+    "id": 5,
+    "name": "Kerstin Lindberg",
+    "type": "Hemtjänst",
+    "address": "Avenyn 78",
+    "location": "Göteborg",
+    "keyNumber": 105,
+    "keyNotes": "Electronic lock, code 5678",
+    "units": ["Göteborg"],
+    "preferredStaff": [1, 5, 13],
+    "preferredTimeWindows": [
+      { "start": "08:30", "end": "10:30" },
+      { "start": "16:30", "end": "18:30" }
+    ],
+    "serviceRequirements": {
+      "medication": true,
+      "injections": true,
+      "health_assessment": true
+    },
+    "notes": "Needs insulin injections"
+  },
+  {
+    "id": 6,
+    "name": "Agneta Bergström",
+    "type": "Hemtjänst",
+    "address": "Järntorget 5",
+    "location": "Göteborg",
+    "keyNumber": 106,
+    "keyNotes": "Key in office",
+    "units": ["Göteborg"],
+    "preferredStaff": [3, 8, 11],
+    "preferredTimeWindows": [
+      { "start": "09:00", "end": "11:00" },
+      { "start": "14:00", "end": "16:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "medication": true,
+      "meal_preparation": true
+    },
+    "notes": "Allergic to nuts"
+  },
+  {
+    "id": 7,
+    "name": "Anders Ekström",
+    "type": "Hemtjänst",
+    "address": "Kungsportsavenyn 34",
+    "location": "Göteborg",
+    "keyNumber": 107,
+    "keyNotes": "Key with neighbor",
+    "units": ["Göteborg"],
+    "preferredStaff": [4, 7, 10],
+    "preferredTimeWindows": [
+      { "start": "07:30", "end": "09:30" },
+      { "start": "17:30", "end": "19:30" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "mobility": true,
+      "companionship": true
+    },
+    "notes": "Uses walker, needs assistance with stairs"
+  },
+  {
+    "id": 8,
+    "name": "Ingrid Karlsson",
+    "type": "Hemtjänst",
+    "address": "Haga Nygata 12",
+    "location": "Göteborg",
+    "keyNumber": 108,
+    "keyNotes": "Key in lockbox, code 9876",
+    "units": ["Göteborg"],
+    "preferredStaff": [3, 5, 13],
+    "preferredTimeWindows": [
+      { "start": "08:00", "end": "10:00" },
+      { "start": "16:00", "end": "18:00" }
+    ],
+    "serviceRequirements": {
+      "medication": true,
+      "nursing": true,
+      "wound_care": true
+    },
+    "notes": "Wound dressing needs changing daily"
+  },
+  {
+    "id": 9,
+    "name": "Bo Sune",
+    "type": "Hemtjänst",
+    "address": "Nordstan 45",
+    "location": "Göteborg",
+    "keyNumber": 109,
+    "keyNotes": "Key with staff",
+    "units": ["Göteborg"],
+    "preferredStaff": [5, 8, 11],
+    "preferredTimeWindows": [
+      { "start": "09:30", "end": "11:30" },
+      { "start": "15:30", "end": "17:30" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "health_assessment": true,
+      "medication": true
+    },
+    "notes": "Blood pressure monitoring required"
+  },
+  {
+    "id": 10,
+    "name": "Anette Falk",
+    "type": "Hemtjänst",
+    "address": "Brunnsparken 7",
+    "location": "Göteborg",
+    "keyNumber": 110,
+    "keyNotes": "Electronic lock, code 4321",
+    "units": ["Göteborg"],
+    "preferredStaff": [2, 6, 9],
+    "preferredTimeWindows": [
+      { "start": "10:00", "end": "12:00" },
+      { "start": "14:00", "end": "16:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "housekeeping": true,
+      "meal_preparation": true
+    },
+    "notes": "Vegetarian diet"
+  },
+  {
+    "id": 11,
+    "name": "Mohammed Mahdi",
+    "type": "Hemtjänst",
+    "address": "Redbergsplatsen 23",
+    "location": "Göteborg",
+    "keyNumber": 111,
+    "keyNotes": "Key in office",
+    "units": ["Göteborg"],
+    "preferredStaff": [6, 9, 12],
+    "preferredTimeWindows": [
+      { "start": "11:00", "end": "13:00" },
+      { "start": "17:00", "end": "19:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "mobility": true,
+      "companionship": true
+    },
+    "notes": "Prefers male staff"
+  },
+  {
+    "id": 12,
+    "name": "Elvira Bezgodova",
+    "type": "Hemtjänst",
+    "address": "Olskroken 56",
+    "location": "Göteborg",
+    "keyNumber": 112,
+    "keyNotes": "Key with relative",
+    "units": ["Göteborg"],
+    "preferredStaff": [7, 10, 14],
+    "preferredTimeWindows": [
+      { "start": "08:30", "end": "10:30" },
+      { "start": "16:30", "end": "18:30" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "medication": true,
+      "meal_preparation": true
+    },
+    "notes": "Russian speaker, limited Swedish"
+  },
+  {
+    "id": 13,
+    "name": "Ingvar Kamprad",
+    "type": "Hemtjänst",
+    "address": "Backaplan 12",
+    "location": "Göteborg",
+    "keyNumber": 113,
+    "keyNotes": "Key in lockbox, code 5432",
+    "units": ["Göteborg"],
+    "preferredStaff": [3, 5, 13],
+    "preferredTimeWindows": [
+      { "start": "07:00", "end": "09:00" },
+      { "start": "15:00", "end": "17:00" }
+    ],
+    "serviceRequirements": {
+      "medication": true,
+      "nursing": true,
+      "health_assessment": true
+    },
+    "notes": "Needs oxygen therapy"
+  },
+  {
+    "id": 14,
+    "name": "Leif Pagrotsky",
+    "type": "Hemtjänst",
+    "address": "Frölunda Torg 78",
+    "location": "Västra Frölunda",
+    "keyNumber": 114,
+    "keyNotes": "Key with staff",
+    "units": ["Västra Frölunda"],
+    "preferredStaff": [4, 7, 10],
+    "preferredTimeWindows": [
+      { "start": "09:00", "end": "11:00" },
+      { "start": "16:00", "end": "18:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "mobility": true,
+      "companionship": true
+    },
+    "notes": "Enjoys music, bring radio"
+  },
+  {
+    "id": 15,
+    "name": "Ulla-Britt Svensson",
+    "type": "Hemtjänst",
+    "address": "Majorna 34",
+    "location": "Göteborg",
+    "keyNumber": 115,
+    "keyNotes": "Electronic lock, code 6789",
+    "units": ["Göteborg"],
+    "preferredStaff": [2, 6, 9],
+    "preferredTimeWindows": [
+      { "start": "08:00", "end": "10:00" },
+      { "start": "17:00", "end": "19:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "housekeeping": true,
+      "meal_preparation": true
+    },
+    "notes": "Has a dog, be careful when entering"
+  },
+  {
+    "id": 16,
+    "name": "Elsa Beskow",
+    "type": "Hemtjänst",
+    "address": "Linnéplatsen 12",
+    "location": "Göteborg",
+    "keyNumber": 116,
+    "keyNotes": "Key in office",
+    "units": ["Göteborg"],
+    "preferredStaff": [1, 8, 11],
+    "preferredTimeWindows": [
+      { "start": "10:30", "end": "12:30" },
+      { "start": "15:30", "end": "17:30" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "medication": true,
+      "companionship": true
+    },
+    "notes": "Likes to read, bring newspaper"
+  },
+  {
+    "id": 17,
+    "name": "Astrid Lindgren",
+    "type": "Hemtjänst",
+    "address": "Slottsskogen 56",
+    "location": "Göteborg",
+    "keyNumber": 117,
+    "keyNotes": "Key with neighbor",
+    "units": ["Göteborg"],
+    "preferredStaff": [3, 5, 13],
+    "preferredTimeWindows": [
+      { "start": "09:00", "end": "11:00" },
+      { "start": "16:00", "end": "18:00" }
+    ],
+    "serviceRequirements": {
+      "medication": true,
+      "nursing": true,
+      "wound_care": true
+    },
+    "notes": "Needs assistance with medication"
+  },
+  {
+    "id": 18,
+    "name": "Selma Lagerlöf",
+    "type": "Hemtjänst",
+    "address": "Kungsportsplatsen 7",
+    "location": "Göteborg",
+    "keyNumber": 118,
+    "keyNotes": "Key in lockbox, code 8765",
+    "units": ["Göteborg"],
+    "preferredStaff": [4, 7, 10],
+    "preferredTimeWindows": [
+      { "start": "08:30", "end": "10:30" },
+      { "start": "17:30", "end": "19:30" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "mobility": true,
+      "companionship": true
+    },
+    "notes": "Visually impaired, needs guidance"
+  },
+  {
+    "id": 19,
+    "name": "August Strindberg",
+    "type": "Hemtjänst",
+    "address": "Domkyrkan 23",
+    "location": "Göteborg",
+    "keyNumber": 119,
+    "keyNotes": "Key with staff",
+    "units": ["Göteborg"],
+    "preferredStaff": [2, 6, 9],
+    "preferredTimeWindows": [
+      { "start": "10:00", "end": "12:00" },
+      { "start": "15:00", "end": "17:00" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "housekeeping": true,
+      "meal_preparation": true
+    },
+    "notes": "Needs help with cooking"
+  },
+  {
+    "id": 20,
+    "name": "Evert Taube",
+    "type": "Hemtjänst",
+    "address": "Liseberg 45",
+    "location": "Göteborg",
+    "keyNumber": 120,
+    "keyNotes": "Electronic lock, code 2345",
+    "units": ["Göteborg"],
+    "preferredStaff": [1, 8, 11],
+    "preferredTimeWindows": [
+      { "start": "09:30", "end": "11:30" },
+      { "start": "16:30", "end": "18:30" }
+    ],
+    "serviceRequirements": {
+      "personal_care": true,
+      "medication": true,
+      "companionship": true
+    },
+    "notes": "Enjoys singing, bring songbook"
+  }
+]
